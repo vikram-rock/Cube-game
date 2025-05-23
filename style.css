@@ -22,7 +22,6 @@
 	font-family: inherit;
 	font-weight: inherit;
 	font-style: inherit;
-	text-transform: uppercase;
 }
 *:focus {
 	outline: none;
@@ -48,6 +47,7 @@ body {
 	overflow: hidden;
 	height: 100%;
 	font-size: 5rem;
+	text-transform: uppercase;
 }
 
 .icon {
@@ -288,15 +288,15 @@ body {
 	border-radius: 100%;
 }
 .btn--bl {
-	bottom: 0.8em;
+	top: 0.8em;
 	left: 0.8em;
 }
 .btn--br {
-	bottom: 0.8em;
+	top: 0.8em;
 	right: 0.8em;
 }
 .btn--bc {
-	bottom: 0.8em;
+	top: 0.8em;
 	left: calc(50% - 0.5em);
 }
 .btn svg {
@@ -370,4 +370,24 @@ body {
 }
 .ui__buttons {
 	z-index: 5;
+}
+
+
+
+
+.btn--ft{
+	color: #fff;
+  	background-color: linear-gradient(to left, #831bcd, #f9620b);
+  	font-family: 'poppins', sans-serif;
+  	font-size: 1em;
+	text-transform: none;
+  	text-align: center;
+  	position: relative; 
+  	top: 730px;
+}
+
+@media only screen and (max-width: 600px) {
+	.btn--ft{
+		top: 900px;
+	}
 }

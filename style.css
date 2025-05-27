@@ -416,7 +416,7 @@ footer:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    .btn--ft {
+    footer {
         top: 900px;
     }
 }
